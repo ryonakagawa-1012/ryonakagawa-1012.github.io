@@ -1,0 +1,46 @@
+/* ナビバー全体 */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a1a1a;
+    padding: 0.75em 1.5em;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+/* ナビバーロゴ */
+.navbar-logo {
+    height: 2em;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+/* リストを横並びに */
+.navbar ul {
+    display: flex;
+    gap: 1.5em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* アクティブリンク */
+.navbar a.active {
+    color: #646cff;
+    border-bottom: 2px solid #646cff;
+}
+
+/* ホバー時 */
+.navbar a:hover {
+    color: #535bf2;
+}
